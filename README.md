@@ -35,3 +35,8 @@ http://stackoverflow.com/questions/17072683/rmagick-not-opening-multi-page-pdfs-
 2. Выполните `rake app:bootstrap_deploy` для линковки конфигов
 
 После этого можно использовать команды `cap production/staging deploy`
+
+## Bzr branch продлевание 
+1. Продлевайте репозиторию: `bzr push lp:~niko9510181/+junk/Ruby`
+2. Через веточный узел: `bzr-builder format 0.3 deb-version {debupstream}-0~{revno}`
+
