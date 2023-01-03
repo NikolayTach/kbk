@@ -36,7 +36,7 @@ http://stackoverflow.com/questions/17072683/rmagick-not-opening-multi-page-pdfs-
 
 После этого можно использовать команды `cap production/staging deploy`
 
-## Bzr branch продлевание 
+## Bzr branch продление 
 1. Продлевайте репозиторию: `bzr push lp:~niko9510181/+junk/Ruby`
 2. Через веточный узел: `bzr-builder format 0.3 deb-version {debupstream}-0~{revno}`
 
